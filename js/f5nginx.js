@@ -6,7 +6,7 @@ function hello(r) {
         return (c=='x' ? rand :(r&0x3|0x8)).toString(16);
     });
 
-    r.return(200, "F5-NGINX Community!\n" + uuid);
+    r.return(200, "QUNOG23!\n" + uuid);
 }
 
 
